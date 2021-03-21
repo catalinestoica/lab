@@ -83,7 +83,7 @@ public class ProxyImage implements Image{
 ### Requirements
 
 - make a new package called exercise3 inside your current lab package
-- inside the previous created package, make 4 classes with the same names as the ones that are in the Class Diagram. Also add
+- inside the previous created package, make four classes with the same names as the ones that are in the Class Diagram. Also add
   one more class called Main
 - take care that Sensor is an abstract class and location is inherited in subclasses too. Proper handle location in subclasses.
 - readValue() will be overridden in subclasses and also will generate a values between 0 - 100
@@ -110,7 +110,7 @@ try {
 ### Requirements
 
 - make a new package called exercise4 inside your current lab package
-- make the Controller class be implemented as a [Singleton](http://radumiron.net/doku.php?id=isp:lab5spex2017)
+- make the Controller class be implemented as a [Singleton](http://radumiron.net/doku.php?id=java1:proiectare:dp:singelton)
 - `Very important to not alter Exercise 3, for that here add all that classes again`
 
 

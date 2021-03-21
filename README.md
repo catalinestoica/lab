@@ -4,7 +4,7 @@
 
 ### Requirements
 
-- make a new package called exercise1
+- make a new package called exercise1 inside your current lab package
 - inside the previous created package, make four classes with the same names as the ones that are in the Class Diagram. Also add one
   more class called Main
 - the four classes will have the attributes, constructors and methods implemented based on the Class Diagram
@@ -62,7 +62,7 @@ public class ProxyImage implements Image{
 
 ### Requirements
 
-- make a new package called exercise2
+- make a new package called exercise2 inside your current lab package
 - for every class and interface listed above, make proper class and interface translation into the package created before
 - create the Class Diagram for the listed code, for this you can use [Start UML](https://staruml.io/) or any tool to design UML diagrams
 - save the diagram as `.jpg (or another image format)` and in this package as well
@@ -82,7 +82,7 @@ public class ProxyImage implements Image{
 
 ### Requirements
 
-- make a new package called exercise3
+- make a new package called exercise3 inside your current lab package
 - inside the previous created package, make 4 classes with the same names as the ones that are in the Class Diagram. Also add
   one more class called Main
 - take care that Sensor is an abstract class and location is inherited in subclasses too. Proper handle location in subclasses.
@@ -92,12 +92,24 @@ public class ProxyImage implements Image{
 - in the main method also write as comments the relations between classes 
 
 
+#### For waiting a second you can use
+
+```
+try {
+    Thread.sleep(1000
+} catch (InterruptedException e) {
+    e.printStackTrace();
+}
+
+```
+
+
 
 ## Exercise 4
 
 ### Requirements
 
-- make a new package called exercise4
+- make a new package called exercise4 inside your current lab package
 - make the Controller class be implemented as a [Singleton](http://radumiron.net/doku.php?id=isp:lab5spex2017)
 - `Very important to not alter Exercise 3, for that here add all that classes again`
 
@@ -109,7 +121,7 @@ public class ProxyImage implements Image{
 
 ### Requirements
 
-- make a new package called exercise5
+- make a new package called exercise5 inside your current lab package
 - implement the Class Diagram with the same requirements as at Exercise 3, but `take care that here are other relations between classes`
 - in the main method also write as comments the relations between classes
 

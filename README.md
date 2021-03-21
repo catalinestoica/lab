@@ -86,7 +86,7 @@ public class ProxyImage implements Image{
 - inside the previous created package, make four classes with the same names as the ones that are in the Class Diagram. Also add
   one more class called Main
 - take care that Sensor is an abstract class and location is inherited in subclasses too. Proper handle location in subclasses.
-- readValue() will be overridden in subclasses and also will generate a values between 0 - 100
+- readValue() will be overridden in subclasses and also will generate a value between 0 - 100
 - control() method will read and display temperature and light values with a period of 1 second for duration of 20 seconds
 - in the Main class add main method and test there the control method
 - in the main method also write as comments the relations between classes 

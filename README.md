@@ -8,8 +8,8 @@
 - inside the previous created package, make four classes with the same names as the ones that are in the Class Diagram. Also add one
   more class called Main
 - the four classes will have the attributes, constructors and methods implemented based on the Class Diagram
-- getArea() and getPerimeter() from Shape are abstract, they will be overridden in Circle and Rectangle with proper implementation
-  ⟶ hint: see abstraction in action
+- getArea() and getPerimeter() from Shape are abstract, they will be implemented in Circle and Rectangle with proper implementation, and
+also overrided in Square ⟶ hint: see abstraction + inheritance in action 
 - inside the Main class add the main method. After, make an array of Shapes, fill it with Circle, Rectangle and Square objects and test 
   the methods: getArea(), getPerimeter() and toString() ⟶ hint: see polymorphism in action
 
@@ -110,7 +110,7 @@ try {
 ### Requirements
 
 - make a new package called exercise4 inside your current lab package
-- make the Controller class be implemented as a [Singleton](http://radumiron.net/doku.php?id=java1:proiectare:dp:singelton)
+- make the Controller class from #exercise-4 be implemented as a [Singleton](http://radumiron.net/doku.php?id=java1:proiectare:dp:singelton)
 - `Very important to not alter Exercise 3, for that here add all that classes again`
 
 

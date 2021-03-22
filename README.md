@@ -110,7 +110,7 @@ try {
 ### Requirements
 
 - make a new package called exercise4 inside your current lab package
-- make the Controller class from [Exercise 1](#exercise-3) be implemented as a [Singleton](http://radumiron.net/doku.php?id=java1:proiectare:dp:singelton)
+- make the Controller class from [Exercise 3](#exercise-3) be implemented as a [Singleton](http://radumiron.net/doku.php?id=java1:proiectare:dp:singelton)
 - `Very important to not alter Exercise 3, for that here add all that classes again`
 
 
